@@ -1,0 +1,14 @@
+node_modules/
+out/
+episodes/
+public/fonts/
+public/music/
+public/video/
+public/shots/
+*.mp4
+*.mp3
+*.m4a
+*.wav
+*.webm
+.env
+.DS_Store

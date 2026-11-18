@@ -1,0 +1,27 @@
+{
+  "name": "aivideo-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 视频生产线：选题 → 素材 → 写稿 → 配音 → 组件装配 → 发布",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "previews": "node scripts/render-previews.mjs",
+    "radar": "node scripts/radar.mjs",
+    "tts": "node scripts/tts.mjs",
+    "record": "node scripts/record.mjs",
+    "gate": "node scripts/gate.mjs",
+    "publish": "node scripts/publish.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@remotion/cli": "4.0.544",
+    "@remotion/transitions": "4.0.544",
+    "msedge-tts": "2.1.1",
+    "playwright": "1.65.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.544"
+  }
+}
